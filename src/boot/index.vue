@@ -39,7 +39,7 @@ export default {
     );
   },
   methods: {
-    loadFonts: async function() {
+    loadFonts: async()  => {
       try {
         this.isAppReady = false;
         await Font.loadAsync({
@@ -54,7 +54,7 @@ export default {
 
       }
     },
-    _handleNotification:  async function(notification) {
+    _handleNotification:  async(notification) => {
       this.notification = notification;
       let data = await user();
       if(this.notification.data.user_id ===  data._id){        

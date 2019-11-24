@@ -1,0 +1,26 @@
+export const ALL_USERS = 'ALL_USERS'
+export const ALL_USERS_SUCCESS = 'ALL_USERS_SUCCESS'
+export const ALL_USERS_FAILURE = 'ALL_USERS_FAILURE'
+
+export const LOGIN = 'LOGIN'
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
+export const LOGIN_FAILURE = 'LOGIN_FAILURE'
+
+
+export const LOGOUT = 'LOGOUT'
+export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS'
+export const LOGOUT_FAILURE = 'LOGOUT_FAILURE'
+
+export const USER_BY_ID = 'USER_BY_ID'
+export const USER_BY_ID_SUCCESS = 'USER_BY_ID_SUCCESS'
+export const USER_BY_ID_FAILURE = "USER_BY_ID_FAILURE"
+
+export const ADD_USER = 'ADD_USER'
+export const ADD_USER_SUCCESS = 'ADD_USER_SUCCESS'
+export const ADD_USER_FAILURE = 'ADD_USER_FAILURE'
+
+export const ERROR_MSG = 'ERROR_MSG'
+export const SUCCESS_MSG = 'SUCCESS_MSG'
+
+export const ACTIVITY = 'ACTIVITY'
+export const ACTIVITY_SUCCESS = 'ACTIVITY_SUCCESS'
